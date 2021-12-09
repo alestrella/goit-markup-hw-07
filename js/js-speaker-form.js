@@ -1,6 +1,6 @@
 (() => {
   const refs = {
-    formsend: document.querySelector('.footer-form'),
+    formsend: document.querySelector('.subs-form'),
     modalsend: document.querySelector('.modal-form')};
 
   refs.formsend.addEventListener('submit', e => {
