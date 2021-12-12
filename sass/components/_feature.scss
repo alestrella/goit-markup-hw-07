@@ -1,9 +1,9 @@
 .feature {
-  @include list(flex, wrap, null, null, -30px, null, null);
+  @include section(94px, 94px);
+}
 
-  &__heading {
-    @extend %heading;
-  }
+.feature__list {
+  @include list(flex, wrap, null, null, -30px, null, null);
 }
 
 .feature__item {

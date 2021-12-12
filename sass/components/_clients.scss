@@ -1,3 +1,7 @@
+.client {
+  @include section(94px, 94px);
+}
+
 .client__heading {
   @extend %heading;
 }
