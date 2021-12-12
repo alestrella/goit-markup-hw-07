@@ -25,12 +25,3 @@
   margin-bottom: $mb;
   margin: $m;
 }
-
-@mixin item($ml, $mt, $mr, $mb, $m, $q, $gap) {
-  margin-left: $ml;
-  margin-top: $mt;
-  margin-right: $mr;
-  margin-bottom: $mb;
-  margin: $m;
-  flex-basis: calc(100% / #{$q} - #{$gap});
-}
