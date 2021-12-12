@@ -642,6 +642,11 @@ input:-webkit-autofill:active {
   margin-right: 8px;
 }
 
+.portfolio__section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .portfolio {
   display: -webkit-box;
   display: -ms-flexbox;

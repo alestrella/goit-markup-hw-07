@@ -1,3 +1,7 @@
+.portfolio__section {
+  @include section(94px, 94px);
+}
+
 .portfolio {
   @include list(flex, wrap, null, null, null, null, -15px);
 }
